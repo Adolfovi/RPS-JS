@@ -52,7 +52,7 @@ playeroption = 1;
 
 // FUNCION TIJERA
 function piedra(){
-playeroption = 0;
+playeroption = 2;
   if(playeroption === 2 && cpuoption === 0){
     document.getElementById('resultado').innerHTML="TIJERA- PIEDRA: PERDISTES!!";
   
